@@ -37,6 +37,43 @@
             </nav>
         </div>
     </header>
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="toggler-id" aria-label="open-close mobile-navigation menu">
+            <svg class="mobile-navigation-burger" aria-label="burger-icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+
+            </svg>
+        </label>
+
+        <input type="checkbox"  id="toggler-id" class="mobile-navigation-toggler">
+
+        <nav class="mobile-navigation-menu" aria-label="mob navigation">
+            <ul class="mobile-navigation-list" aria-label="mob navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+                <svg class="mobile-navigation-cross" aria-label="cross-icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+        
+                </svg>
+            </label>
+        </nav>
+    </div>
     <main aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="containar">
@@ -98,9 +135,9 @@
     <footer class="contacts" aria-label="contacts section" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title" aria-label="contacts title">Contacts</h2>
-            <button class="cjntacts-button"> 
+            
                 <a href="http://ayvazovskiy.su/" class="button-link" target="_blank">ayvazovskiy.su</a>
-            </button>
+            
 
             <address class="socials" aria-label="social icons">
                 <a href="https://youtube.com" target="_blank" aria-label=" link to youtube">
